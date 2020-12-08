@@ -20,3 +20,5 @@ def calculate_months(total_cost, annual_salary, portion_saved_input):
         current_savings += portion_saved+current_savings*r/12
     print(months)
 
+calculate_months(total_cost, annual_salary, portion_saved_input)
+
